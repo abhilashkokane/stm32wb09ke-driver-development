@@ -1,0 +1,28 @@
+# Build
+/build/
+/bin/
+/*.hex
+/*.elf
+/*.map
+/*.bin
+
+# IDE files
+.vscode/
+.idea/
+*.project
+*.cproject
+*.launch
+*.settings/
+
+# CubeIDE specific
+.metadata/
+*.launch
+*.launch.pad
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Other
+*.log
+*.swp
