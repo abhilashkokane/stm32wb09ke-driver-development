@@ -4,7 +4,6 @@
 #include "stm32wb09xx.h"
 
 
-
 typedef struct
 {
 	uint8_t GPIO_PinNumber;				/*possible values from @GPIO_PIN_NUMBERS*/
@@ -23,7 +22,7 @@ typedef struct
 typedef struct
 {
 	GPIO_RegDef_t *pGPIOx;				// This holds the base address of the GPIO port to which the pin belongs. x : A,B
-	GPIO_PinConfig_t GPIO_PinConfig;	// This holds GPIO pin config settings
+	GPIO_PinConfig_t GPIO_PinConfig;	// This holds GPIO pin Config settings
 } GPIO_Handle_t;
 
 

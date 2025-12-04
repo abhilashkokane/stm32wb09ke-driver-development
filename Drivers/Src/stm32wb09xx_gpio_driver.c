@@ -64,6 +64,11 @@ void GPIO_Init(GPIO_Handle_t *pGPIOHandle)
 	4. configure the output type
 	5. configure the alt funx
 	*/
+
+
+	//Enable the peripheral clock
+	GPIO_PeriClockControl(pGPIOHandle->pGPIOx, ENABLE);
+
 	uint32_t temp = 0;
 
 	// 1. Configure the mode of the gpio pin ->

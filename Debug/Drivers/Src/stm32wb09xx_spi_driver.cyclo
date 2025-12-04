@@ -1,0 +1,5 @@
+../Drivers/Src/stm32wb09xx_spi_driver.c:25:6:SPI_PeriClockControl	4
+../Drivers/Src/stm32wb09xx_spi_driver.c:53:6:SPI_Init	4
+../Drivers/Src/stm32wb09xx_spi_driver.c:137:9:SPI_GetFlagStatus	2
+../Drivers/Src/stm32wb09xx_spi_driver.c:144:6:SPI_SendData	4
+../Drivers/Src/stm32wb09xx_spi_driver.c:206:6:SPI_PeripheralControl	2
